@@ -1,0 +1,30 @@
+{
+    "name": "omneo/qantas-loyalty-sdk",
+    "description": "PHP SDK for the Qantas Loyalty API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omneo\\Qantas\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omneo\\Qantas\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/pagination": "^5.4",
+        "illuminate/support": "^5.4",
+        "nesbot/carbon": "^1.22",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "mockery/mockery": "^0.9.9"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
