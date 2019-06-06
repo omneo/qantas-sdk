@@ -1,5 +1,5 @@
 {
-    "name": "omneo/qantas-loyalty-sdk",
+    "name": "omneo/qantas-sdk",
     "description": "PHP SDK for the Qantas Loyalty API",
     "type": "library",
     "license": "MIT",
