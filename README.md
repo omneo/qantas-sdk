@@ -1,1 +1,1 @@
-# qantas-loyalty-sdk
+# qantas-sdk
