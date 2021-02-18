@@ -172,7 +172,8 @@ class ServiceClient
     {
         $stack->push(GuzzleHttp\Middleware::mapRequest(function (RequestInterface $request) {
             return $request
-                ->withHeader('Content-type', 'application/json');
+                ->withHeader('Content-type', 'application/json')
+                ->withHeader('User-Agent', null);
         }));
     }
 
